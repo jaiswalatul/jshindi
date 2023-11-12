@@ -1,7 +1,7 @@
 "use strict"
 let score="33abc"
 let score2=null
-let score3=undefined
+let score3=undefined //atul
 
 console.log(typeof score);
 console.log(typeof(score))
