@@ -1,0 +1,43 @@
+const name="hitesh"
+const repos=50
+
+console.log(name+repos+"value");
+
+//modern way of printing
+console.log(`Hello my Name Is ${name} and My Repo Count is ${repos}`)
+
+// Declaration of String
+
+const gamename=new String('hiteshch')
+
+console.log(gamename[0]);
+// console.log(gamename.__proto__);
+
+console.log(gamename.length);
+console.log(gamename.toUpperCase());
+console.log(gamename.charAt(2));                   
+console.log(gamename.indexOf('t'));
+
+console.log(gamename.substring(0,4));
+
+const newstring=gamename.slice(-6,-3)
+console.log(newstring);
+
+const newstring1="   hitesh    "
+console.log(newstring1);//   hitesh   .
+console.log(newstring1.trim()); //Hitesh It remove all the starting and ending spaces
+
+
+//use of replace
+const url="https://atul.com/atul%20jaiswal"
+
+console.log(url.replace('%20','-'));
+
+console.log(url.includes('hitesh'));
+console.log(url.includes('atul'));
+
+
+// string to array Conversion
+
+const games="cricket-volley-football-hockey-badminton"
+console.log(games.split("-"));
