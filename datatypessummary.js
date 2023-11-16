@@ -46,16 +46,9 @@ email2="atul@gmail.com"
 console.log(email1);
 console.log(email2);
 
-
-
-
-
-
-
-
-
-
-
+//here the value of email1 is not changes on changing the email2
+// it is because here is copy of email1 is given to email2 so all the changes occur in
+//copy file original files remains same
 
 
 
@@ -72,3 +65,7 @@ usertwo.email="atul@gmail.com"
 
 console.log(userone.email)
 console.log(usertwo.email)
+
+//Here the value of userone is change on changing the usertwo value 
+//It is because we use non primitive data type in thi the here nw=ew copy is not generated while 
+//usertwo is fetched or say refrenced to the userone so all changes on two will also occur in one 

@@ -40,4 +40,4 @@ console.log(url.includes('atul'));
 // string to array Conversion
 
 const games="cricket-volley-football-hockey-badminton"
-console.log(games.split("-"));
+console.log(games.split());
