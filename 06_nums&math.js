@@ -42,7 +42,7 @@ console.log(Math.max(4,3,7,5,9));//9
 console.log(Math.min(4,3,7,5,9));//3
 
 console.log(Math.random());// Always diffrent and between 0 and 1 :0.9852319281667279
-// Sometimes it also give 0  at 0.076 to avoid this we add 1
+// Sometimes it also give 0  at 0.076 after apply math.floor to avoid this we add 1
 
 // if you want range from 1 to 10 then
 console.log((Math.random()*10) + 1);9.004754326490879
